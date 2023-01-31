@@ -8,5 +8,8 @@ public class QueueTest {
 		q.enqueue(30);
 		q.enqueue(70);
 		q.displayQueue();
+		System.out.println("Dequeue the queue");
+		q.dequeue();
+		q.displayQueue();
 	}
 }
