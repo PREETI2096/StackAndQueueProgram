@@ -8,6 +8,13 @@ public class StackTest {
 		stack.push(30);
 		stack.push(56);
 		stack.display();
-
+		System.out.println("pop all till it becomes empty");
+		stack.peek();
+		stack.pop();
+		stack.pop();
+		stack.pop();
+		stack.pop();
+		stack.display();
+		
 	}
 }
